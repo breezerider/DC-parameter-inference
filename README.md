@@ -21,7 +21,19 @@ cd ~/pSSAlib
 make clean; make -j && make install
 ```
 
-Now you can reproduce the results in Figures 1 and 2 by running 
+# Data for Figure 1
+
+To reproduce Figure 1, please change directory to `figure-1` and run
+
+```
+make
+```
+
+which will produce a shell script `run_fig1.sh`. Run this cripts and it will produce the true-negative and true-positive counts, that can be plotted using `plot.py`.
+
+# Data for Figure 2
+
+You can reproduce the results in Figure 2 by changing your working directory to `figure-2/{a,b,c}` and running 
 
 ```
 make compile
@@ -44,3 +56,7 @@ Then in MATLAB just run the `.m` scripts from the respective work subdirectory. 
 * `dTimeStart` -- first time point included in the steady-state trajectory
 * `dTimeStep` -- time step
 * `dTimeEnd` -- last time point included in the steady-state trajectory
+
+# Extensions
+
+New models can be added to `models.h` and respective MATLAB driver script, following the examples presented in this repository.
