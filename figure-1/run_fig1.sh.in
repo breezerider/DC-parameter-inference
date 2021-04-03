@@ -1,0 +1,4 @@
+#!@SHELL@
+
+[ -l pyPSSAlib.so ] || ln -s ../python/pyPSSAlib.so ./pyPSSAlib.so
+LD_PRELOAD=$(readlink -f @PREFIX@/lib/libpssa.so.0.0.0) python3 ./fig1.py "$@"
