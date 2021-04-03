@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.py[cod]
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+# C
+*.a
+*.so
+*.mexa64 
