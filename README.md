@@ -3,11 +3,15 @@
 
 Clone the LpAdaptation repository
 
-`git clone https://github.com/breezerider/LpAdaptation_Code.git ~/LpAdaptation_Code`
+```
+git clone https://github.com/breezerider/LpAdaptation_Code.git ~/LpAdaptation_Code
+```
 
 Follow these steps to build pSSAlib compatible with MATLAB. Clone the pSSAlib repository to ~/pSSAlib
 
-`git clone https://github.com/breezerider/pSSAlib.git ~/pSSAlib`
+```
+git clone https://github.com/breezerider/pSSAlib.git ~/pSSAlib
+```
 
 and run:
 
@@ -19,14 +23,18 @@ make clean; make -j && make install
 
 Now you can reproduce the results in Figures 1 and 2 by running 
 
-`make compile`
+```
+make compile
+```
 
 in the respective subdirectories and running the respective scripts in the work subdirectory.
 Makefiles allow one to submit individual parameter estimation runs as SLURM jobs by running:
 
-`make run`
+```
+make run
+```
 
-However, these MATLAB scripts can also be run interactively. First, please make sure that `LpAdaptation_Code` is on the MATLAB path.
+However, these MATLAB scripts can also be run interactively. First, please make sure that `LpAdaptation_Code` directory is on the MATLAB path.
 Then in MATLAB just run the `.m` scripts from the respective work subdirectory. Some paramaters that you ay want to change:
 
 * `nSampleID` -- sample identifier
