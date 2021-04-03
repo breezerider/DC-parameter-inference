@@ -21,7 +21,11 @@ cd ~/pSSAlib
 make clean; make -j && make install
 ```
 
-# Data for Figure 1
+# Data for the Figures
+
+All the data is available in the `data` subdirectory.
+
+# Reproduce Data for Figure 1
 
 To reproduce Figure 1, please change directory to `figure-1` and run
 
@@ -31,7 +35,7 @@ make
 
 which will produce a shell script `run_fig1.sh`. Run this cripts and it will produce the true-negative and true-positive counts, that can be plotted using `plot.py`.
 
-# Data for Figure 2
+# Reproduce Data for Figure 2
 
 You can reproduce the results in Figure 2 by changing your working directory to `figure-2/{a,b,c}` and running 
 
