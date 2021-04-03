@@ -1,0 +1,242 @@
+# Corr coeff DC (n = 100, top 5 considered): (e, Vol) = 0.663711, t = 1.536894 > 2.353363, p = 0.221912; (e, T) = 0.878995, t = 3.192877 > 2.353363, p = 0.049602 (t < t_c => R == 0)
+# e = (2.167883) + (0.086499) * ln(Vol)/ln(10)
+# Corr coeff DC (n = 100, top 10 considered): (e, Vol) = 0.385915, t = 1.183188 > 1.859548, p = 0.270700; (e, T) = 0.730194, t = 3.022802 > 1.859548, p = 0.016489 (t < t_c => R == 0)
+# e = (2.195534) + (0.072978) * ln(Vol)/ln(10)
+# Corr coeff DC (n = 100, top 15 considered): (e, Vol) = -0.064484, t = 0.232987 > 1.770933, p = 0.819400; (e, T) = 0.251538, t = 0.937062 > 1.770933, p = 0.365810 (t < t_c => R == 0)
+# e = (1.689282) + (-0.014172) * ln(Vol)/ln(10)
+# Corr coeff DC (n = 100, top 20 considered): (e, Vol) = 0.016094, t = 0.068288 > 1.734064, p = 0.946309; (e, T) = 0.216737, t = 0.941928 > 1.734064, p = 0.358700 (t < t_c => R == 0)
+# e = (1.928079) + (0.004610) * ln(Vol)/ln(10)
+# Corr coeff DC (n = 100, top 25 considered): (e, Vol) = 0.018608, t = 0.089255 > 1.713872, p = 0.929652; (e, T) = 0.334436, t = 1.701897 > 1.713872, p = 0.102255 (t < t_c => R == 0)
+# e = (2.031874) + (0.005871) * ln(Vol)/ln(10)
+# Corr coeff DC (n = 100, top 30 considered): (e, Vol) = -0.036647, t = 0.194048 > 1.701131, p = 0.847539; (e, T) = 0.387213, t = 2.222302 > 1.701131, p = 0.034516 (t < t_c => R == 0)
+# e = (1.991722) + (-0.013778) * ln(Vol)/ln(10)
+# Corr coeff DC (n = 100, top 35 considered): (e, Vol) = -0.002769, t = 0.015908 > 1.692360, p = 0.987404; (e, T) = 0.396289, t = 2.479512 > 1.692360, p = 0.018436 (t < t_c => R == 0)
+# e = (2.194501) + (-0.001216) * ln(Vol)/ln(10)
+# Corr coeff DC (n = 100, top 40 considered): (e, Vol) = -0.143637, t = 0.894717 > 1.685954, p = 0.376571; (e, T) = 0.258124, t = 1.646995 > 1.685954, p = 0.107805 (t < t_c => R == 0)
+# e = (1.773810) + (-0.071865) * ln(Vol)/ln(10)
+# Corr coeff DC (n = 100, top 45 considered): (e, Vol) = -0.078453, t = 0.516038 > 1.681071, p = 0.608471; (e, T) = 0.325165, t = 2.254782 > 1.681071, p = 0.029294 (t < t_c => R == 0)
+# e = (2.065497) + (-0.045839) * ln(Vol)/ln(10)
+# Corr coeff DC (n = 100, top 50 considered): (e, Vol) = -0.170632, t = 1.199766 > 1.677224, p = 0.236119; (e, T) = 0.290959, t = 2.106980 > 1.677224, p = 0.040371 (t < t_c => R == 0)
+# e = (1.715171) + (-0.106981) * ln(Vol)/ln(10)
+# Corr coeff DC (n = 100, top 55 considered): (e, Vol) = -0.250621, t = 1.884694 > 1.674116, p = 0.064960; (e, T) = 0.164109, t = 1.211154 > 1.674116, p = 0.231209 (t < t_c => R == 0)
+# e = (1.394867) + (-0.164443) * ln(Vol)/ln(10)
+# Corr coeff DC (n = 100, top 60 considered): (e, Vol) = -0.311085, t = 2.492839 > 1.671553, p = 0.015549; (e, T) = 0.125602, t = 0.964195 > 1.671553, p = 0.338951 (t < t_c => R == 0)
+# e = (1.145087) + (-0.211227) * ln(Vol)/ln(10)
+# Corr coeff DC (n = 100, top 65 considered): (e, Vol) = -0.400094, t = 3.465067 > 1.669402, p = 0.000959; (e, T) = -0.010548, t = 0.083725 > 1.669402, p = 0.933540 (t < t_c => R == 0)
+# e = (0.625404) + (-0.291238) * ln(Vol)/ln(10)
+# Corr coeff DC (n = 100, top 70 considered): (e, Vol) = -0.393475, t = 3.529370 > 1.667572, p = 0.000752; (e, T) = 0.050816, t = 0.419579 > 1.667572, p = 0.676116 (t < t_c => R == 0)
+# e = (0.643817) + (-0.303193) * ln(Vol)/ln(10)
+# Corr coeff DC (n = 100, top 75 considered): (e, Vol) = -0.360606, t = 3.303271 > 1.665996, p = 0.001482; (e, T) = 0.015259, t = 0.130389 > 1.665996, p = 0.896617 (t < t_c => R == 0)
+# e = (0.814265) + (-0.296845) * ln(Vol)/ln(10)
+# Corr coeff DC (n = 100, top 80 considered): (e, Vol) = -0.410786, t = 3.979201 > 1.664625, p = 0.000154; (e, T) = 0.098439, t = 0.873629 > 1.664625, p = 0.385002 (t < t_c => R == 0)
+# e = (0.378897) + (-0.367724) * ln(Vol)/ln(10)
+# Corr coeff DC (n = 100, top 85 considered): (e, Vol) = -0.407659, t = 4.067253 > 1.663420, p = 0.000108; (e, T) = 0.242906, t = 2.281306 > 1.663420, p = 0.025092 (t < t_c => R == 0)
+# e = (0.298347) + (-0.394549) * ln(Vol)/ln(10)
+# Corr coeff DC (n = 100, top 90 considered): (e, Vol) = -0.453337, t = 4.771107 > 1.662354, p = 0.000007; (e, T) = 0.253872, t = 2.462196 > 1.662354, p = 0.015758 (t < t_c => R == 0)
+# e = (-0.219392) + (-0.477278) * ln(Vol)/ln(10)
+# Corr coeff DC (n = 100, top 95 considered): (e, Vol) = -0.478756, t = 5.258806 > 1.661404, p = 0.000001; (e, T) = 0.188678, t = 1.852826 > 1.661404, p = 0.067079 (t < t_c => R == 0)
+# e = (-0.349649) + (-0.510831) * ln(Vol)/ln(10)
+# Corr coeff DC (n = 100, top 100 considered): (e, Vol) = -0.501450, t = 5.737612 > 1.660551, p = 0.000000; (e, T) = 0.102932, t = 1.024418 > 1.660551, p = 0.308160 (t < t_c => R == 0)
+# e = (-0.364850) + (-0.529639) * ln(Vol)/ln(10)
+# k1;k2;k3;k4;k5;k6;e;Vol;T
+# ground truth : 2.250000e+00;4.000000e+00;1.000000e+02;1.000000e+00;1.000000e+00;1.000000e+01;
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-48.mat
+1.946488e+00;4.397906e+00;1.098242e+02;4.955996e-01;2.230348e+00;8.668916e+00;1.350421e+00;1.135121e-08;1.433218e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-54.mat
+1.720410e+00;4.228029e+00;2.024525e+02;1.105705e+00;1.819722e+00;7.660180e+00;1.358737e+00;3.470713e-09;1.282939e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-125.mat
+3.269222e+00;4.015777e+00;2.398064e+02;3.877563e-01;1.155949e+00;1.434916e+01;1.657743e+00;7.499170e-06;2.068501e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-104.mat
+3.101068e+00;4.217036e+00;2.201127e+02;5.836755e-01;1.963162e+00;1.377095e+01;1.682834e+00;1.464889e-08;1.834347e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-107.mat
+2.070580e+00;4.171422e+00;2.453167e+02;2.771352e-01;1.481791e+00;9.267634e+00;1.697030e+00;4.076275e-07;1.750149e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-111.mat
+2.160719e+00;4.430075e+00;1.753542e+02;1.518759e-01;2.281361e+00;9.674401e+00;1.715582e+00;9.410356e-08;1.947388e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-79.mat
+2.945186e+00;4.328127e+00;2.350238e+02;7.474079e-01;2.004633e+00;1.313024e+01;1.759662e+00;2.848802e-07;1.745528e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-52.mat
+2.084875e+00;4.310057e+00;2.306838e+02;2.831435e-01;1.942273e+00;9.198254e+00;1.768448e+00;8.557202e-08;1.840730e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-105.mat
+1.490879e+00;4.422158e+00;1.596706e+02;2.253359e-01;2.527642e+00;6.551941e+00;1.879817e+00;9.846358e-09;1.791455e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-100.mat
+2.516726e+00;4.447137e+00;1.789135e+02;9.629959e-01;2.716144e+00;1.098281e+01;1.898805e+00;2.154238e-07;1.812317e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-116.mat
+4.243060e+00;4.388544e+00;1.136275e+02;2.427084e-01;2.276274e+00;1.888457e+01;1.950481e+00;9.197167e-07;2.511193e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-73.mat
+2.765634e+00;4.375005e+00;2.419798e+02;4.904047e-01;2.251586e+00;1.228149e+01;1.988804e+00;1.608941e-07;1.657097e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-55.mat
+1.940340e+00;4.507306e+00;1.956489e+02;4.097984e-01;2.681782e+00;8.603392e+00;2.036205e+00;5.447519e-09;1.385460e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-49.mat
+1.989765e+00;4.573409e+00;1.699409e+02;1.049571e+00;2.909671e+00;8.828173e+00;2.046004e+00;3.416426e-09;1.464205e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-124.mat
+3.288117e+00;4.577861e+00;1.495396e+02;2.105066e-01;2.750533e+00;1.480002e+01;2.096958e+00;2.372525e-09;1.813671e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-81.mat
+2.172070e+00;4.558066e+00;2.058098e+02;4.954153e-01;2.762729e+00;9.706132e+00;2.122008e+00;6.969806e-09;1.296436e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-46.mat
+3.691386e+00;4.264487e+00;2.794504e+02;5.009478e-01;1.545708e+00;1.683842e+01;2.156269e+00;2.117494e-07;1.797443e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-98.mat
+3.219208e+00;4.567750e+00;2.183362e+02;2.888264e-01;2.605175e+00;1.452775e+01;2.212104e+00;4.273271e-08;1.749560e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-87.mat
+4.550473e+00;4.331290e+00;2.196081e+02;3.517417e-01;2.027470e+00;2.029276e+01;2.240130e+00;1.481629e-07;2.073793e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-36.mat
+3.793792e+00;4.179382e+00;2.975957e+02;6.598907e-01;1.412254e+00;1.715836e+01;2.274916e+00;1.753300e-07;1.929754e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-126.mat
+2.540143e+00;4.499639e+00;1.554776e+02;4.357394e-01;3.139707e+00;1.110088e+01;2.291040e+00;3.779029e-09;1.739275e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-99.mat
+3.892319e+00;4.205060e+00;2.794425e+02;2.183865e-01;1.684640e+00;1.728162e+01;2.316299e+00;1.545403e-06;2.031719e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-127.mat
+2.279313e+00;4.732929e+00;1.539726e+02;8.825192e-01;3.282972e+00;1.019357e+01;2.356095e+00;5.577628e-09;1.879067e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-109.mat
+2.676360e+00;4.388346e+00;2.936461e+02;4.743932e-01;2.349115e+00;1.188662e+01;2.434580e+00;1.574880e-08;1.813265e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-33.mat
+4.519554e+00;4.344976e+00;2.605930e+02;6.236679e-01;2.103816e+00;1.997710e+01;2.441182e+00;9.354725e-07;2.268802e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-85.mat
+2.596139e+00;4.659068e+00;1.967943e+02;2.614555e-01;3.168817e+00;1.162688e+01;2.502681e+00;7.806847e-09;1.856504e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-114.mat
+3.966309e+00;4.638628e+00;1.311386e+02;2.062622e-01;3.188483e+00;1.770655e+01;2.591854e+00;1.226606e-07;3.069096e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-120.mat
+2.564261e+00;4.689405e+00;1.620683e+02;3.369060e-01;3.427944e+00;1.132778e+01;2.605129e+00;1.067705e-09;1.747802e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-88.mat
+3.920978e+00;4.508156e+00;2.598125e+02;4.707569e-01;2.711315e+00;1.753405e+01;2.626404e+00;4.712597e-07;2.045136e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-74.mat
+3.412506e+00;4.247928e+00;3.441879e+02;5.102548e-01;1.776435e+00;1.510582e+01;2.708682e+00;6.706168e-08;1.747069e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-83.mat
+2.762682e+00;4.523143e+00;3.196420e+02;2.414633e-01;2.501865e+00;1.245013e+01;2.790034e+00;1.174572e-07;1.876609e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-40.mat
+3.626284e+00;4.565890e+00;2.854274e+02;3.143688e-01;2.810416e+00;1.627277e+01;2.823769e+00;8.004071e-09;1.861961e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-69.mat
+3.735221e+00;4.375914e+00;3.380862e+02;6.838049e-01;2.264580e+00;1.644485e+01;2.868374e+00;1.017324e-06;2.207767e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-51.mat
+4.251282e+00;4.596165e+00;3.023231e+02;6.370485e-01;2.632707e+00;1.928604e+01;2.926873e+00;7.963832e-07;2.016894e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-102.mat
+3.732273e+00;4.761809e+00;1.926333e+02;1.622571e+00;3.548857e+00;1.663054e+01;2.941475e+00;1.593815e-09;2.007077e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-71.mat
+2.194597e+00;4.710253e+00;2.777321e+02;6.637350e-01;3.335472e+00;9.778781e+00;2.959560e+00;5.389380e-09;1.665164e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-44.mat
+2.705243e+00;4.712887e+00;2.784121e+02;1.978806e-01;3.248376e+00;1.200589e+01;2.999102e+00;4.023557e-09;1.700475e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-62.mat
+2.752886e+00;4.279035e+00;3.751081e+02;2.948976e-01;1.914710e+00;1.225360e+01;3.001320e+00;5.847572e-08;1.622697e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-123.mat
+2.702442e+00;4.610846e+00;3.182912e+02;4.992391e-01;3.010553e+00;1.199380e+01;3.026829e+00;1.642153e-08;1.989891e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-72.mat
+3.364689e+00;4.749422e+00;2.190770e+02;2.172244e+00;3.434573e+00;1.503497e+01;3.041921e+00;3.407823e-09;1.771792e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-66.mat
+4.761296e+00;4.690293e+00;1.623375e+02;1.697200e+00;3.454206e+00;2.086828e+01;3.058519e+00;1.010293e-07;2.260908e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-93.mat
+2.967687e+00;4.609851e+00;3.059061e+02;1.855076e-01;3.152599e+00;1.303246e+01;3.123101e+00;4.096003e-08;1.875078e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-67.mat
+3.412695e+00;4.612639e+00;3.162829e+02;1.916120e-01;2.968020e+00;1.523363e+01;3.125512e+00;1.091297e-07;1.769757e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-77.mat
+4.434304e+00;4.597644e+00;3.189458e+02;2.100841e-01;2.863082e+00;1.991502e+01;3.291902e+00;1.211202e-07;2.317370e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-61.mat
+3.385413e+00;4.748596e+00;3.283978e+02;2.166687e-01;3.199054e+00;1.540369e+01;3.353756e+00;4.319892e-08;2.095194e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-45.mat
+1.599335e+00;4.736947e+00;3.268607e+02;4.044877e-01;3.393106e+00;7.173264e+00;3.380184e+00;1.177107e-10;1.369978e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-118.mat
+4.207984e+00;4.863797e+00;1.998313e+02;2.438751e-01;3.891708e+00;1.881106e+01;3.392726e+00;9.882641e-08;2.383436e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-78.mat
+5.378350e+00;4.656747e+00;2.601651e+02;2.897304e-01;3.132320e+00;2.410324e+01;3.400835e+00;1.197847e-07;2.596791e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-103.mat
+2.928887e+00;4.536498e+00;3.987704e+02;4.927823e-01;2.629625e+00;1.320815e+01;3.471494e+00;4.569782e-09;2.090068e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-47.mat
+1.676633e+00;4.621330e+00;4.018633e+02;3.481906e-01;2.934446e+00;7.515143e+00;3.664682e+00;1.274938e-08;1.541258e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-112.mat
+2.395455e+00;4.795686e+00;3.451054e+02;4.844120e-01;3.756688e+00;1.058043e+01;3.730944e+00;6.701779e-08;2.166188e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-43.mat
+3.225378e+00;4.642697e+00;3.961577e+02;3.009013e-01;3.064347e+00;1.444470e+01;3.732627e+00;3.414532e-08;1.842248e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-84.mat
+3.259108e+00;5.030253e+00;2.276196e+02;3.751060e-01;4.443721e+00;1.458792e+01;3.788978e+00;6.542865e-08;2.129067e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-60.mat
+1.556960e+00;3.987994e+00;4.729249e+02;1.160487e-01;1.121619e+00;6.814740e+00;3.860026e+00;9.201844e-09;1.264677e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-82.mat
+1.411183e+00;4.936153e+00;2.760869e+02;4.256746e-01;4.352551e+00;6.173972e+00;3.874307e+00;8.498543e-12;1.417399e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-94.mat
+2.687961e+00;4.605585e+00;4.273771e+02;1.734462e-01;2.893892e+00;1.193844e+01;3.884068e+00;1.530897e-07;1.831589e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-92.mat
+3.476202e+00;4.376589e+00;4.538131e+02;3.816494e-01;2.380712e+00;1.527322e+01;3.923140e+00;4.758870e-07;2.286398e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-32.mat
+1.950470e+00;5.004941e+00;2.998835e+02;3.552124e-01;4.450378e+00;8.608101e+00;4.051718e+00;7.234069e-11;1.511218e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-122.mat
+3.004467e+00;5.180755e+00;1.759279e+02;4.676760e-01;4.943141e+00;1.345455e+01;4.089883e+00;2.609858e-09;2.237479e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-63.mat
+2.094147e+00;4.945861e+00;3.577756e+02;7.197879e-01;4.159340e+00;9.347678e+00;4.095088e+00;1.550604e-10;1.445681e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-89.mat
+2.772924e+00;4.625213e+00;4.454410e+02;2.421203e-01;3.116648e+00;1.227268e+01;4.137345e+00;4.005785e-09;1.690919e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-90.mat
+2.749050e+00;4.977261e+00;3.575793e+02;1.719062e-01;4.116919e+00;1.227340e+01;4.146830e+00;4.898450e-09;1.654751e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-96.mat
+2.274871e+00;4.824593e+00;4.193425e+02;1.064516e-01;3.592064e+00;1.014981e+01;4.214028e+00;1.536432e-10;1.529108e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-35.mat
+2.070541e+00;4.654682e+00;4.548448e+02;2.212943e-01;3.171014e+00;9.162105e+00;4.236902e+00;6.179251e-10;1.423333e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-41.mat
+2.124379e+00;4.928290e+00;4.165726e+02;3.633868e-01;3.863978e+00;9.595392e+00;4.322971e+00;4.105822e-09;1.536718e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-106.mat
+5.991761e+00;4.623815e+00;3.864298e+02;3.307787e-01;3.294773e+00;2.624518e+01;4.398523e+00;8.459236e-08;2.639114e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-121.mat
+3.123435e+00;5.322084e+00;1.127819e+02;1.042750e-01;5.431081e+00;1.386430e+01;4.567538e+00;9.879286e-12;1.813060e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-75.mat
+4.773039e+00;4.687899e+00;4.584321e+02;4.364217e-01;3.304992e+00;2.108358e+01;4.581858e+00;1.536493e-07;2.485614e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-129.mat
+1.656969e+00;4.785881e+00;4.641019e+02;6.510259e-01;3.812283e+00;7.280166e+00;4.633550e+00;4.956359e-10;1.571701e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-128.mat
+2.246737e+00;4.536343e+00;5.484361e+02;1.886502e-01;2.516886e+00;1.007772e+01;4.804869e+00;3.610251e-08;1.693949e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-70.mat
+1.562262e+00;4.373229e+00;5.697313e+02;7.036028e-01;2.052982e+00;6.990689e+00;4.842939e+00;1.262602e-08;1.506404e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-34.mat
+2.748203e+00;4.426092e+00;5.545959e+02;2.411024e-01;2.483302e+00;1.207491e+01;4.852348e+00;1.092997e-07;1.773090e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-42.mat
+4.499908e+00;4.514698e+00;5.365524e+02;3.961731e-01;2.637817e+00;2.016730e+01;4.914781e+00;6.759627e-08;2.247413e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-39.mat
+1.614479e+00;5.441089e+00;2.071553e+02;9.609891e-01;5.769275e+00;7.250031e+00;4.917411e+00;5.713381e-12;1.507774e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-59.mat
+3.113563e+00;4.384387e+00;5.882431e+02;7.270859e-01;2.137994e+00;1.394095e+01;5.051683e+00;7.159263e-08;1.868586e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-37.mat
+5.021470e+00;5.012217e+00;4.510859e+02;4.302102e-01;4.209840e+00;2.252972e+01;5.109314e+00;5.855076e-09;2.435074e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-76.mat
+2.802034e+00;5.528898e+00;2.268584e+02;4.661014e-01;6.004176e+00;1.255846e+01;5.216117e+00;1.068325e-10;1.804778e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-119.mat
+2.367809e+00;5.300908e+00;3.619168e+02;2.170078e-01;5.527716e+00;1.048538e+01;5.299453e+00;1.100894e-10;1.865858e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-117.mat
+3.156075e+00;5.729323e+00;1.404551e+02;3.006902e-01;6.452608e+00;1.427783e+01;5.560189e+00;5.789107e-10;2.461209e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-64.mat
+3.737354e+00;4.893022e+00;5.537126e+02;2.222097e-01;3.971233e+00;1.679798e+01;5.564858e+00;4.898681e-08;1.978935e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-31.mat
+2.080244e+00;5.561446e+00;3.441284e+02;5.466812e-01;5.966616e+00;9.474813e+00;5.567178e+00;6.541460e-11;2.181699e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-101.mat
+7.586360e+00;5.130263e+00;3.051598e+02;4.256998e-01;5.012571e+00;3.320624e+01;5.632919e+00;1.915464e-09;3.240080e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-56.mat
+4.508720e+00;4.699890e+00;5.927862e+02;2.808749e-01;3.218646e+00;2.020260e+01;5.639385e+00;1.117584e-07;2.307027e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-108.mat
+3.310137e+00;5.577669e+00;2.677759e+02;6.187664e-01;6.492490e+00;1.469203e+01;5.807356e+00;6.291744e-11;2.120390e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-130.mat
+4.367671e+00;4.676756e+00;6.495284e+02;3.156986e-01;3.157961e+00;1.962148e+01;6.096179e+00;1.221188e-07;2.317996e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-68.mat
+2.059266e+00;5.365317e+00;5.294712e+02;5.746908e-01;5.402369e+00;9.219174e+00;6.175442e+00;5.396522e-11;1.639203e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-80.mat
+4.265253e+00;5.450963e+00;4.330395e+02;2.716396e-01;6.115007e+00;1.864015e+01;6.282170e+00;6.882131e-10;2.368759e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-110.mat
+5.980699e+00;4.645701e+00;6.568249e+02;3.806129e-01;3.259317e+00;2.618048e+01;6.472012e+00;7.176607e-08;2.601598e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-113.mat
+1.112042e+00;4.170766e+00;7.498994e+02;2.612586e-01;1.685803e+00;4.917900e+00;6.615806e+00;1.064621e-11;1.287767e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-65.mat
+5.626890e+00;5.668843e+00;3.299265e+02;2.648513e-01;6.777174e+00;2.480615e+01;6.619789e+00;1.896362e-09;2.583669e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-91.mat
+3.224990e+00;5.012256e+00;7.047217e+02;4.474922e-01;4.274564e+00;1.448020e+01;6.931768e+00;7.701841e-09;1.825561e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-53.mat
+3.035886e+00;5.862330e+00;2.329772e+02;3.438310e-01;7.742631e+00;1.316025e+01;6.935457e+00;4.195648e-13;1.878269e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-86.mat
+4.378601e+00;4.159668e+00;7.881374e+02;3.760784e-01;1.660127e+00;1.946941e+01;7.069063e+00;1.339023e-06;2.019963e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-50.mat
+2.713208e+00;6.009842e+00;2.546568e+02;3.582157e-01;7.865141e+00;1.199780e+01;7.090041e+00;4.104223e-13;1.844120e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-57.mat
+1.960114e+00;4.666659e+00;7.801547e+02;2.840954e-01;3.132764e+00;8.747833e+00;7.168144e+00;2.176582e-10;1.525976e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-58.mat
+3.129902e+00;4.302674e+00;8.103856e+02;4.174177e-01;2.006023e+00;1.393144e+01;7.220075e+00;2.322982e-07;1.967297e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-115.mat
+3.018288e+00;6.200922e+00;2.216448e+02;3.475871e-01;8.149831e+00;1.358209e+01;7.319367e+00;9.281919e-13;2.414621e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-38.mat
+1.342611e+00;4.099821e+00;8.346974e+02;1.743271e-01;1.253500e+00;6.046395e+00;7.419137e+00;7.996851e-09;1.207212e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-95.mat
+2.459122e+00;4.434722e+00;8.385488e+02;3.493199e-01;2.161323e+00;1.111683e+01;7.506691e+00;6.313410e-09;1.484943e+03
+# /home/h1/ostrenko/lp-opt/LpOptimization/figures/c//data//Ostrenko2019-pe-dc-ed-sample-97.mat
+1.949576e+00;6.250463e+00;3.074055e+02;4.132343e-01;8.673304e+00;8.660491e+00;7.992365e+00;1.318404e-15;1.507649e+03
